@@ -1,0 +1,21 @@
+#MyEclipse Hibernate Properties
+#Tue Dec 12 09:59:01 CST 2017
+genBasicCompId=false
+sessionFactoryName=com.linkapp.test.HibernateSessionFactory
+profile=
+daoSFId=
+jndiPath=
+detectM2M=false
+reStrategyClass=
+detectO2O=false
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+genAnnotations=false
+reSettingsFile=/com.linkapp.test/hibernate.reveng.xml
+configFile=/com.linkapp.test/src/test/hibernate.cfg.xml
+createConfigFile=true
+baseDaoClass=BaseHibernateDAO

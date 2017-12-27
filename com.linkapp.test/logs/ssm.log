@@ -1,0 +1,122 @@
+[INFO] [2017-12-07 18:01:39][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-07 18:02:55][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-07 18:04:50][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-07 18:05:03][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-07 18:07:22][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-07 18:07:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:50:49][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:51:08][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:51:41][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:51:46][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:52:11][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:52:14][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:52:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 09:52:40][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:06:17][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:06:31][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:08:27][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:09:30][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:12:39][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:13:19][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:14:08][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:15:27][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:15:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:17:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:19:18][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:21:01][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:22:10][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:22:24][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:33:22][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:33:35][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:39:08][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:39:18][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:39:23][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:39:53][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:40:02][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:44:50][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:45:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:45:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:49:39][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:49:53][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [WARN] [2017-12-08 10:51:44][org.apache.activemq.transport.failover.FailoverTransport]Transport (tcp://localhost/127.0.0.1:61616@61251) failed, attempting to automatically reconnect
+  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:609)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:594)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:258)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:221)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:213)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:196)
+	at java.lang.Thread.run(Thread.java:745)
+[WARN] [2017-12-08 10:51:44][org.apache.activemq.transport.failover.FailoverTransport]Transport (tcp://localhost/127.0.0.1:61616@61249) failed, attempting to automatically reconnect
+  java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:609)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:594)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:258)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:221)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:213)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:196)
+	at java.lang.Thread.run(Thread.java:745)
+[INFO] [2017-12-08 10:52:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully reconnected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:52:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully reconnected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:52:37][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:53:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:53:28][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:53:38][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:54:00][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:54:56][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:55:19][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:55:25][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:55:30][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:56:05][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:56:19][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:56:42][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:56:53][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:57:06][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 10:57:14][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:02:19][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:02:28][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:02:33][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:03:32][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:04:43][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:04:52][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:09:45][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:09:51][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:09:58][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:10:07][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:10:36][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:10:41][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:18:57][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 11:19:10][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:19:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:19:39][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:19:44][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:22:09][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:22:17][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:22:22][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:22:51][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:22:56][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:23:02][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:23:08][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:24:19][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:24:26][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:24:34][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:24:42][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:24:47][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:36:42][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:36:56][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:46:55][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 15:47:15][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 16:42:39][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 16:42:52][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  [INFO] [2017-12-08 17:01:50][org.apache.activemq.transport.failover.FailoverTransport]Successfully connected to tcp://localhost:61616
+  

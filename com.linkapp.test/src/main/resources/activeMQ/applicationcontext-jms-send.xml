@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns="http://www.springframework.org/schema/beans"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+	<!-- 复用ConnectionFactory -->
+
+	<!-- simpleTopic:PUB -->
+	<bean id="simpleTopicPubJmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="connectionFactoryReceive" />
+		<property name="defaultDestination">
+			<bean class="org.apache.activemq.command.ActiveMQTopic">
+				<constructor-arg value="simpleTopic" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- simpleQuenu:Producer -->
+	<bean id="simpleQuenuProducerJmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+		<property name="connectionFactory" ref="connectionFactoryReceive" />
+		<property name="defaultDestination">
+			<bean class="org.apache.activemq.command.ActiveMQQueue">
+				<constructor-arg value="simpleQuenu" index="0" />
+			</bean>
+		</property>
+	</bean>
+
+</beans>

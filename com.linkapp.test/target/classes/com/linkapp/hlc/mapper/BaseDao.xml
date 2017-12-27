@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.linkapp.hlc.dao.BaseDao">
+
+  	
+	<insert id="save" parameterType="com.linkapp.hlc.entity.User" >
+		<![CDATA[   	  		 	
+   		 	INSERT INTO table_linkapp (id,`name`,`date`) 
+   		 	VALUES (#{id,jdbcType=VARCHAR},#{name,jdbcType=VARCHAR},#{date,jdbcType=VARCHAR})
+    	]]>
+	</insert>	
+	
+	<select id="select" resultType="java.lang.String">
+	<![CDATA[  
+		select * from  Test20171012
+	
+	]]>
+	</select>
+</mapper>
